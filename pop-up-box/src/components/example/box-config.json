@@ -1,0 +1,34 @@
+{
+    "box_config": {
+        "style": {
+            "width": "400px",
+            "height": "500px"
+        },
+        "titleAttr": "title",
+        "trigger": "click",
+        "placement": "right"
+    },
+    "default_selected": "页签2",
+    "modules": [{
+        "name": "HelloWorld",
+        "label": "页签1",
+        "enable": true,
+        "options": {
+            "type": "test"
+        }
+    }, {
+        "name": "HelloWorld11",
+        "label": "页签2",
+        "enable": true,
+        "options": {
+            "type": "test2"
+        }
+    }, {
+        "name": "login-form",
+        "label": "页签3",
+        "enable": true,
+        "options": {
+            "type": "test4"
+        }
+    }]
+}
